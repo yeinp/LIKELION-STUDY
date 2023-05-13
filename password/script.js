@@ -25,7 +25,7 @@ passwordInput.addEventListener("keyup", (e) => {
     const requirementItem = requirementList[item.index];
 
     if (isValid) {
-      // 일치 했을때 valid를 넣어 연하게 만들어줌
+      // 일치 했을때 valid를 넣어 연하게 만들어주기
       requirementItem.classList.add("valid");
       // 10. <ul class="requirement-list"> 안에 있는 <li>의 첫번째 요소 <i>의 클래스를 fa-solid fa-check로 바꿔주기
       requirementItem.querySelector("i").className = "fa-solid fa-check";
