@@ -1,14 +1,16 @@
+/* css 파일 */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Noto Sans KR', sans-serif;}
+  font-family: "Noto Sans KR", sans-serif;
+}
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4285F4;
+  background: #4285f4;
 }
 .wrapper {
   width: 500px;
@@ -16,7 +18,7 @@ body {
   padding: 28px;
   border-radius: 8px;
   background: #fff;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 .wrapper .pass-field {
   height: 65px;
@@ -34,7 +36,7 @@ body {
 }
 .pass-field input:focus {
   padding: 0 16px;
-  border: 2px solid #4285F4;
+  border: 2px solid #4285f4;
 }
 .pass-field i {
   right: 18px;
@@ -69,7 +71,7 @@ body {
 }
 .requirement-list li.valid i {
   font-size: 1.2rem;
-  color: #4285F4;
+  color: #4285f4;
 }
 .requirement-list li span {
   margin-left: 12px;
@@ -79,16 +81,19 @@ body {
   color: #999;
 }
 @media screen and (max-width: 500px) {
-  body, .wrapper {
+  body,
+  .wrapper {
     padding: 15px;
   }
   .wrapper .pass-field {
     height: 55px;
   }
-  .pass-field input, .content p  {
+  .pass-field input,
+  .content p {
     font-size: 1.15rem;
   }
-  .pass-field i, .requirement-list li {
+  .pass-field i,
+  .requirement-list li {
     font-size: 1.1rem;
   }
   .requirement-list li span {

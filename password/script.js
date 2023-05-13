@@ -38,7 +38,7 @@ passwordInput.addEventListener("keyup", (e) => {
   });
 });
 
-// 눈 아이콘 클릭 시
+// 눈 아이콘 클릭 시 text or password
 eyeIcon.addEventListener("click", () => {
   // 12. passwordInput의 type이 password면 text로 type을 변환한다. (text일때는 반대로)
   passwordInput.type = passwordInput.type === "password" ? "text" : "password";
